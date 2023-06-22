@@ -28,7 +28,6 @@ defmodule AdventOfCode2022.Day10.Crt do
             end
           end)
 
-        IO.inspect key_signals
         Enum.sum(key_signals)
       {:error, reason} ->
         IO.puts "Error opening input file: #{reason}"
